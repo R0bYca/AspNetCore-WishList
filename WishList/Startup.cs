@@ -28,6 +28,7 @@ namespace WishList
             //{
             //    await context.Response.WriteAsync("Hello World!");
             //});
+           
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -40,6 +41,7 @@ namespace WishList
 
             app.UseRouting();
             app.UseEndpoints(endpoints => { endpoints.MapDefaultControllerRoute(); });
+           
         }
     }
 }
