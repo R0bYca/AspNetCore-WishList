@@ -13,6 +13,6 @@ namespace WishList.Data
         {
 
         }
-        DbSet<Item> Items { get; set; }
+        public DbSet<Item> Items { get; set; }
     }
 }
